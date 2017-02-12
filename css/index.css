@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body,#app,#main {
+    padding:0;
+    margin:0;
+    height:100%;
+}
+
+.navigator {
+    float:left;
+    width:20%;
+    min-height:100%;
+    background-color:blue;
+    color:yellow;
+}
+
+.navigator ul  {
+    padding:0;
+}
+
+.navigator ul li a {
+    color:yellow;
+}
+
+.content {
+    float:left;
+    width:80%;
+    min-height:100%;
+    background-color:red;
+}
+
+.content:after {
+    content:'';
+    clear:both;
+}
+
+.mail {
+    margin:10px;
+
+}
